@@ -1,0 +1,101 @@
+/* About Us page specific styles */
+.about {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+    line-height: 1.6;
+}
+
+/* Team section styles */
+.team {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.team h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #007bff; /* Blue border for better visibility */
+}
+
+.team-member h3 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+}
+
+.team-member p strong {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Specific styles for Advisor */
+.team-member.advisor {
+    background: #e8f4f8; /* Light blue background for advisor */
+    border: 1px solid #b0c4de; /* Light border color */
+}
+
+.team-member.advisor img {
+    border: 3px solid #007bff; /* Blue border around image */
+}
+
+.team-member.advisor p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+.team-member.advisor p strong {
+    color: #0056b3; /* Highlighting important research areas */
+}

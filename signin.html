@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Terra Trio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sign In - Terra Trio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="technology.html">Technology</a></li>
+                <li><a href="projects.html">Project</a></li>
+                <li><a href="business.html">Our Business</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="signin">
+            <h2>Sign In</h2>
+            <form action="authenticate_signin.php" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit" class="btn-primary">Sign In</button>
+            </form>
+            
+            <div class="social-signin">
+                <p>Or sign in with:</p>
+                <a href="#" class="btn-social google">Google</a>
+                <a href="#" class="btn-social facebook">Facebook</a>
+                <a href="#" class="btn-social twitter">Twitter</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Terra Trio | <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
